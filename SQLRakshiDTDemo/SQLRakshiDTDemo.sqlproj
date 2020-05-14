@@ -60,12 +60,14 @@
     <Folder Include="dbo\Table" />
     <Folder Include="publishLocations" />
     <Folder Include="dbo\View" />
+    <Folder Include="dbo\StoreProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Table\Booking.sql" />
     <Build Include="dbo\Table\Customer.sql" />
     <Build Include="dbo\Table\RoomType.sql" />
     <Build Include="dbo\View\BookingDetails.sql" />
+    <Build Include="dbo\StoreProcedures\uspGetRommTypes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLRakshiDTDemo.refactorlog" />
