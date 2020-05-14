@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [dbo].[RoomType]
 (
 	[RoomTypeId] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [RoomType] VARCHAR(10) NULL
+    [RoomType] VARCHAR(10) NULL, 
+    [IsAC] BIT NOT NULL DEFAULT 0
 )
